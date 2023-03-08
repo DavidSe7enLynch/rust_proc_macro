@@ -1,3 +1,7 @@
+pub trait HelloMacro {
+    fn hello_macro();
+}
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
